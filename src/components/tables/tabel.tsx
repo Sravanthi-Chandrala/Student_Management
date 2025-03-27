@@ -5,9 +5,6 @@ import Modal from '@/src/assets/popup/popupModa';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchStudents } from '@/src/redux/slices/studentslice';
 import { AppDispatch, RootState } from '@/src/redux/store';
-import Course1Image from '@/src/assets/image1.png';
-import Course2Image from '@/src/assets/image2.png';
-import Profile1 from '@/src/components/tables/profile1.png';
 
 
 interface Student {
